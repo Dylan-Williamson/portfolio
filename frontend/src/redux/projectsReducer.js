@@ -11,6 +11,7 @@ const clearProject = {
   const initialState = {
       projects: [],
       selectedProject: clearProject,
+      display: false
   }
     
   const projectsReducer = (state=initialState, action) => {

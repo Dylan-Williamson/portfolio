@@ -21,6 +21,7 @@ h1,
 h2 {
   text-shadow: 2px 2px #FF0000;
   opacity: 90%;
+  cursor: default;
 }
 
 h3 {
@@ -66,10 +67,6 @@ a {
   color: white;
   font-weight: bold;
   background-color: black;
-}
-
-a:hover {
-  cursor: grab;
 }
 
 button {
@@ -119,20 +116,34 @@ button:hover {
 
 #projects,
 #audio,
-#beats {
+#beats,
+#resume {
   margin: 30px;
 }
 
 nav {
   display: flex;
+  justify-content: space-evenly;
   height: 10%;
+  padding-top: 20px;
+  padding-right: 30px;
+}
+
+.socials {
+  padding-top: 40px;
+  color: rgb(56, 154, 247);
+  text-shadow: 2px 2px #FF0000;
+  opacity: 90%;
+}
+
+.socials:hover {
+  color: white;
+  transform: scale(1.05);
 }
 
 nav img {
   height: 100px;
   width: 100px;
-  padding-left: 20px;
-  padding-top: 20px;
 }
 
 nav img:hover {
@@ -144,4 +155,14 @@ nav img:hover {
   padding-top: 100px;
   width: 50%;
   opacity: 90%;  
+}
+
+.github {
+  height: 40px;
+  width: 110px;
+}
+
+.linkedin {
+  height: 40px;
+  width: 150px;
 }

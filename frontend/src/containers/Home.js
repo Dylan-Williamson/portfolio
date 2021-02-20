@@ -14,15 +14,24 @@ const Home = () => {
                                     Projects
                                 </button>
                             </Link>
-                            <Link to='#'>
+                            <Link to='/audio'>
                                 <button id="audio">
                                     Audio
                                 </button>
                             </Link>
-                            <Link to='#'>
+                            <Link to='/beats'>
                                 <button id="beats">
                                     Beats
                                 </button>
+                            </Link>
+                            <button id="resume" onClick={() => { window.open('https://docs.google.com/document/d/11cwolKAWz3sOJosH6fFC79yks3fFDY-xTSEx4ry_AyI/edit?usp=sharing', "_blank") }}>
+                                Resume
+                            </button>
+                            <Link to='#'>
+                                <img className="github" onClick={() => { window.open('https://github.com/Dylan-Williamson/', "_blank") }} src='https://i.ibb.co/zZY96TH/Git-Hub-Logo-White.png' alt="github"></img>
+                            </Link>
+                            <Link to='#'>
+                                <img className="linkedin" onClick={() => { window.open('https://linkedin.com/in/dylwilliamson/', "_blank") }} src='https://i.ibb.co/hYh60gC/LI-Logo.png' alt="linkedIn"></img>
                             </Link>
                         </div>
                     </div>

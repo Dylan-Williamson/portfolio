@@ -1,5 +1,4 @@
 import React from 'react';
-import Modal from 'react-modal';
 import { connect } from 'react-redux';
 import ProjectCard from '../components/ProjectCard';
 
@@ -10,11 +9,6 @@ const ProjectsPage = (props) => {
 
     return (
         <>
-            <Modal isOpen={false}>
-                <h1>
-                    hello
-                </h1>
-            </Modal>
             <h1>Projects</h1>
             <h3>Take a look at some of my favorite creations!</h3><br/>
             <div className="project-cards">
@@ -26,6 +20,6 @@ const ProjectsPage = (props) => {
 
 const mapStateToProps = (state) => ({
     projects: state.projects
-  })
+})
   
-  export default connect(mapStateToProps)(ProjectsPage)
+export default connect(mapStateToProps)(ProjectsPage)
