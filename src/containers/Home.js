@@ -24,7 +24,7 @@ const Home = () => {
                                     Beats
                                 </button>
                             </Link>
-                            <button id="resume" onClick={() => { window.open('https://docs.google.com/document/d/11cwolKAWz3sOJosH6fFC79yks3fFDY-xTSEx4ry_AyI/edit?usp=sharing', "_blank") }}>
+                            <button id="resume" onClick={() => { window.open('https://drive.google.com/file/d/19laZUJRzKUEO74vyIJRFtyfgT88OLbeJ/view?usp=sharing', "_blank") }}>
                                 Resume
                             </button>
                             <Link to='#'>

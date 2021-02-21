@@ -7,18 +7,11 @@ import BeatsPage from './containers/BeatsPage'
 import AudioPage from './containers/AudioPage'
 import { Switch, Route } from 'react-router-dom'
 import { Redirect } from 'react-router'
-import { connect } from 'react-redux'
-import { setProjects } from './redux/projectActions'
-import { setAudio } from './redux/audioActions'
 
 class App extends Component {
 
-  componentDidMount(){
-    this.props.setProjects();
-    this.props.setAudio();
-  }
-
   render() {
+    
     return (
       <div className="App">
         <Nav/>
@@ -33,4 +26,4 @@ class App extends Component {
     )};
 }
 
-export default connect(null, { setProjects, setAudio })(App);
+export default App;
