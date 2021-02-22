@@ -27,7 +27,6 @@ h2 {
 h3 {
   color: white;
   opacity: 20%;
-  /* text-shadow: 2px 2px #FF0000; */
 }
 
 .project-card {
@@ -126,7 +125,6 @@ nav {
   justify-content: space-evenly;
   height: 10%;
   padding-top: 20px;
-  padding-right: 30px;
 }
 
 .socials {
@@ -173,4 +171,89 @@ nav img:hover {
 .linkedin:hover {
   opacity: 75%;
   transform: scale(1.05);
+}
+
+.project-img {
+  height: 300px;
+  width: 300px;
+}
+
+.project-container {
+  margin: auto;
+  width: 50%;
+  padding: 10px;
+}
+
+.technologies-container {
+  display: flex;
+  background: none;
+  justify-content: space-around;
+  margin-top: 30px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px red, 0px 0px 30px rgb(56, 154, 247);
+}
+
+.technologies-container p {
+  color: white;
+  font-size: 14px;
+  text-shadow: .7px .7px red;
+  height: 30px;
+}
+
+.tech-div p:hover {
+  transform: scale(1.05);
+  text-shadow: 0px 0px 10px red, 0px 0px 30px rgb(56, 154, 247);
+  cursor: default;
+}
+
+.proj-btns {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 30px;
+}
+
+p {
+  text-shadow: .7px .7px white;
+}
+
+iframe {
+  border-radius: 10px;
+  /* border: 1px solid red; */
+}
+
+.audio-stats {
+  display: flex;
+  justify-content: space-around;
+  background: none;
+  width: 560px;
+  border-radius: 20px;
+  margin-bottom: 10px;
+}
+
+.audio-card {
+  box-shadow: 0px 0px 20px red, 0px 0px 30px rgb(56, 154, 247);
+  justify-content: center;
+  margin: auto;
+  width: 560px;
+  border-radius: 10px;
+  border: 2px solid red;
+  margin-bottom: 50px;
+}
+
+.stats-header {
+  display: flex;
+  justify-content: space-around;
+  height: 50px;
+}
+
+.stats-header h3 {
+  opacity: 70%;
+  text-shadow: 0px 0px 10px red, 0px 0px 30px rgb(56, 154, 247);
+}
+
+.audio-cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin-top: 20px;
 }
