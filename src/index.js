@@ -18,7 +18,7 @@ const store = createStore(reducer, compose(
 
 ReactDOM.render(
   <React.StrictMode>
-    <HashRouter>
+    <HashRouter basename='/'>
       <Provider store={store}>
         <App />
       </Provider>
